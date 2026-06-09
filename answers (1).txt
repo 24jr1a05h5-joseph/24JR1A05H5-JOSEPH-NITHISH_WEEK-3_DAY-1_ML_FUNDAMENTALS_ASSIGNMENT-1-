@@ -1,0 +1,95 @@
+
+====================================================
+       PART 10 — STUDENT RESEARCH ACTIVITY
+====================================================
+
+Q1. What is Machine Learning?
+-------------------------------
+Machine Learning (ML) is a branch of Artificial Intelligence
+where computers learn from data and improve their performance
+without being explicitly programmed for every task. Instead of
+writing specific rules, we give the machine examples (data) and
+it finds patterns on its own. For example, instead of telling a
+computer exactly what spam looks like, we show it thousands of
+spam and non-spam emails and it learns to classify them. ML is
+used in recommendation systems, medical diagnosis, self-driving
+cars, fraud detection, and many more applications. There are
+three main types: Supervised Learning, Unsupervised Learning,
+and Reinforcement Learning. In supervised learning, the model
+learns from labelled data — which is what we used in this
+assignment.
+
+Q2. What is Linear Regression?
+--------------------------------
+Linear Regression is a supervised machine learning algorithm
+used to predict a continuous numeric output (label) based on
+one or more input features. It works by finding the best-fit
+straight line (called the regression line) through the data
+points. The formula is y = mx + b, where m is the slope
+(coefficient) and b is the intercept. In multiple linear
+regression (like our assignment), there are multiple features:
+y = m1*x1 + m2*x2 + m3*x3 + b. The model learns the values
+of m and b by minimising the error between actual and predicted
+values using a method called Least Squares. It is simple,
+fast, and easy to interpret, making it ideal for beginners.
+
+Q3. What are Features?
+------------------------
+Features are the input variables (columns) that a machine
+learning model uses to learn patterns and make predictions.
+They are also called independent variables, predictors, or
+attributes. In our dataset, the features are Study_Hours,
+Attendance, and Assignments. Features must be relevant to
+the problem — irrelevant features reduce model accuracy.
+Feature selection is an important step in ML. Features can
+be numerical (like marks or age), categorical (like gender
+or city), or even image pixels in computer vision tasks.
+Good features make the model powerful and accurate, while
+poor or irrelevant features can confuse the model and lead
+to wrong predictions.
+
+Q4. What are Labels?
+----------------------
+Labels are the output variable (column) that the model is
+trying to predict. They are also called the target variable,
+dependent variable, or response variable. In our dataset,
+the label is Marks — what we want the model to predict. In
+supervised learning, every training example has both features
+and a label, so the model learns the relationship between
+them. In classification tasks, labels are categories (like
+spam/not spam). In regression tasks like ours, labels are
+continuous numbers (like marks or prices). Without labels,
+the model has nothing to learn from — which is why labelled
+datasets are so valuable in machine learning projects.
+
+Q5. Training Data vs Testing Data
+-----------------------------------
+Training data is the portion of the dataset used to teach
+the machine learning model. The model learns patterns,
+relationships, and coefficients from this data. Testing
+data is a separate portion kept aside — the model never
+sees it during training. After training, we use testing
+data to evaluate how well the model performs on new, unseen
+data. In our assignment, we used an 80/20 split: 80% for
+training and 20% for testing. If we trained and tested on
+the same data, the model would appear perfect but fail in
+real use (overfitting). Splitting ensures honest evaluation.
+The test score reflects real-world model performance.
+
+Q6. Real-Life Uses of Machine Learning
+----------------------------------------
+Machine Learning is used in many industries today. In
+healthcare, ML models detect diseases like cancer from
+X-rays and MRI scans. In finance, ML detects fraudulent
+transactions in real time. In e-commerce, platforms like
+Amazon and Flipkart use ML to recommend products based on
+user behaviour. Search engines like Google use ML to rank
+results and understand natural language. In agriculture,
+ML predicts crop yields and detects plant diseases. In
+transportation, ML powers self-driving cars and optimises
+delivery routes. Streaming services like Netflix and Spotify
+use ML to personalise content. Voice assistants like Siri
+and Alexa use ML for speech recognition. ML is transforming
+every industry by making systems smarter and more efficient.
+
+====================================================

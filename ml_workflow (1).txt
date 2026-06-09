@@ -1,0 +1,71 @@
+
+====================================================
+     MACHINE LEARNING WORKFLOW DOCUMENTATION
+====================================================
+
+STEP 1 — DATA COLLECTION
+--------------------------
+Data collection is the process of gathering relevant
+information to solve a problem. In this assignment, we
+created a student performance dataset with 12 records
+containing Study Hours, Attendance, Assignments, and
+Marks. Good data is the foundation of any ML project.
+Without proper data, the model cannot learn correctly.
+
+STEP 2 — DATA CLEANING
+------------------------
+Data cleaning means handling missing values, removing
+duplicates, and fixing incorrect data. Our dataset had
+no missing values or errors. In real projects, data is
+often messy and needs to be cleaned before use. Clean
+data ensures the model learns accurate patterns.
+
+STEP 3 — FEATURE SELECTION
+----------------------------
+Feature selection means choosing the right input columns
+that help predict the output. We selected Study_Hours,
+Attendance, and Assignments as features. We dropped
+irrelevant columns. Good features improve model accuracy
+and reduce complexity.
+
+STEP 4 — TRAIN-TEST SPLIT
+---------------------------
+We split the data into 80% training and 20% testing sets.
+The training set teaches the model, and the testing set
+checks if the model works on unseen data. This split
+prevents overfitting and gives an honest evaluation of
+model performance.
+
+STEP 5 — MODEL TRAINING
+-------------------------
+We used Linear Regression from Scikit-learn. The model
+is trained on X_train and y_train using model.fit().
+During training, the algorithm finds the best line that
+fits the data by learning coefficients for each feature
+and an intercept value.
+
+STEP 6 — TESTING
+------------------
+After training, we used model.predict(X_test) to make
+predictions on the test set. The model uses the learned
+coefficients to calculate predicted marks. Testing on
+unseen data shows how well the model generalises beyond
+the training data.
+
+STEP 7 — EVALUATION
+---------------------
+We evaluated the model using MAE (Mean Absolute Error)
+and R² Score. MAE tells us the average prediction error
+in marks. R² Score tells us how well the model explains
+the variance in marks. A high R² (close to 1) and low
+MAE mean the model is performing well.
+
+STEP 8 — PREDICTION
+---------------------
+Finally, we used the trained model to predict marks for
+new students with different Study Hours, Attendance, and
+Assignments values. This is the ultimate goal of ML —
+making useful predictions on data the model has never
+seen before.
+
+====================================================
